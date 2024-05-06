@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-box">
+            <h1>Weather App</h1>
+            <form id="location-form">
+              <pre>  <input type="text" id="location-input" placeholder="Enter City Name">                <button type="submit">Get Weather</button> </pre>
+            </form>
+        </div>
+        <div class="weather-box" id="weather-container">
+            <div id="location" class="info"><img src="Assets/lo.png" alt="Location Icon"> <span>Location:</span> <b><span id="location-text"></span></div></b>
+            <div id="temperature" class="info"><img src="Assets/clear.png" alt="Temperature Icon"> <span>Temperature:</span> <b><span id="temperature-text"></span></div></b>
+            <div id="weather-description" class="info"><img src="Assets/cloud.png" alt="Weather Icon"> <span>Weather:</span><b> <span id="weather-text"></span></div></b>
+            <div id="wind-speed" class="info"><img src="Assets/wind2.png" alt="Wind Icon"> <span>Wind Speed:</span> <b><span id="wind-text"></span></div></b>
+            <div id="humidity" class="info"><img src="Assets/humidity2.png" alt="Humidity Icon"> <span>Humidity:</span> <b><span id="humidity-text"></span></div></b>
+        </div>
+        <div class="weather-condition"  id="weather-condition">
+            <img id="condition-image" src="" alt=".">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
